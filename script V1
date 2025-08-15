@@ -279,3 +279,27 @@ ScriptsTab:AddButton({
 		})
 	end
 })
+
+ScriptsTab:AddButton({
+	Name = "自动跳墙",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20WallHop%20V4%20script"))()
+		OrionLib:MakeNotification({
+			Name = "提示",
+			Content = "正在加载自动跳墙脚本...",
+			Time = 3
+		})
+	end
+})
+
+ScriptsTab:AddButton({
+	Name = "ac6音乐播放脚本",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Ac6-Music-Vulnerability-25536"))()
+		OrionLib:MakeNotification({
+			Name = "提示",
+			Content = "正在加载ac6...",
+			Time = 3
+		})
+	end
+})
