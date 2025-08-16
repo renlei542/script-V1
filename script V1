@@ -303,3 +303,15 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Ac6-Musi
 		})
 	end
 })
+
+ScriptsTab:AddButton({
+	Name = "XA HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://xingtaiduan.pythonanywhere.com/Loader"))()
+		OrionLib:MakeNotification({
+			Name = "提示",
+			Content = "正在加载xa hub...",
+			Time = 3
+		})
+	end
+})
